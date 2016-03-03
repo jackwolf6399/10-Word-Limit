@@ -6,6 +6,13 @@ f.close()
 
 print(lines)
 
-# f = open("output.txt", 'r+')
+f = open("output.txt", 'r+')
+f.write(lines)
+
+f.close()
+
+print(lines)
+
+
 # if length <10
 	
